@@ -10,48 +10,48 @@
 @media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14110f;--card:#211d1a;--ink:#efebe4;--mute:#a09a90;--line:#38332e;--field:#2a2623;--chip:#34302b;--btn:#efebe4;--btnink:#1c1714}}
 :root[data-theme="dark"]{--bg:#14110f;--card:#211d1a;--ink:#efebe4;--mute:#a09a90;--line:#38332e;--field:#2a2623;--chip:#34302b;--btn:#efebe4;--btnink:#1c1714}
 *,*:before,*:after{box-sizing:inherit}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 Inter,system-ui,sans-serif}
-.hero{color:#f4efe6;padding:56px max(24px,calc((100% - 1560px)/2 + 24px)) 64px;background:
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 Inter,system-ui,sans-serif}
+.hero{color:#f4efe6;padding:28px max(20px,calc((100% - 1240px)/2 + 20px)) 34px;background:
  radial-gradient(ellipse 60% 120% at 100% 0%,rgba(120,28,32,.38),transparent 70%),
  repeating-linear-gradient(115deg,rgba(255,255,255,.035) 0 1px,transparent 1px 64px),#19130f}
-.meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 26px;font:400 15px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:#cfc7b8}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;font:400 11px/1 'IBM Plex Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:#cfc7b8}
 .meta b{color:#f4efe6;font-weight:600}
-.logo{width:52px;height:52px;border:2px solid var(--red);border-radius:50%;display:grid;place-items:center;font:600 24px Fraunces,serif;color:var(--red);flex:none}
-h1{font:500 clamp(40px,6.4vw,66px)/1.05 Fraunces,Georgia,serif;letter-spacing:-.015em;margin:34px 0 22px}
-.hero p{max-width:960px;margin:0;font-size:clamp(17px,2vw,24px);line-height:1.6;color:#e8e1d3}
-main{max-width:1560px;margin:0 auto;padding:48px 24px 56px;display:grid;grid-template-columns:1.35fr 1fr;gap:28px;align-items:start}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:36px}
-.head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:34px}
-h2{margin:0;font:600 25px Fraunces,serif;display:flex;align-items:center;gap:16px}
-.tag{font:500 17px 'IBM Plex Mono',monospace;background:#1c1714;color:#fff;padding:6px 12px;border-radius:6px}
-.ico{width:46px;height:46px;border-radius:9px;background:var(--chip);display:grid;place-items:center;color:var(--mute)}
-.btn{font:500 18px Inter,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:8px;padding:13px 22px;cursor:pointer;display:flex;gap:10px;align-items:center}
+.logo{width:34px;height:34px;border:1.5px solid var(--red);border-radius:50%;display:grid;place-items:center;font:600 15px Fraunces,serif;color:var(--red);flex:none}
+h1{font:600 clamp(28px,4.4vw,42px)/1.08 Fraunces,Georgia,serif;letter-spacing:-.015em;margin:20px 0 12px}
+.hero p{max-width:720px;margin:0;font-size:clamp(13px,1.5vw,15px);line-height:1.6;color:#e8e1d3}
+main{max-width:1240px;margin:0 auto;padding:26px 20px 36px;display:grid;grid-template-columns:1.35fr 1fr;gap:16px;align-items:start}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:22px}
+.head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:20px}
+h2{margin:0;font:600 16px Fraunces,serif;display:flex;align-items:center;gap:10px;white-space:nowrap}
+.tag{font:500 11px 'IBM Plex Mono',monospace;background:#1c1714;color:#fff;padding:3px 8px;border-radius:4px;white-space:nowrap}
+.ico{width:30px;height:30px;border-radius:7px;background:var(--chip);display:grid;place-items:center;color:var(--mute)}
+.btn{font:500 12px Inter,sans-serif;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:7px 12px;cursor:pointer;display:flex;gap:6px;align-items:center;white-space:nowrap}
 .btn:hover{background:var(--field)}
-label{display:block;font:400 16px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin:0 0 12px}
-.f{margin-bottom:26px}.f:last-child{margin:0}
-select{width:100%;appearance:none;font:400 22px Inter,sans-serif;color:var(--ink);background:var(--field) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='%236f6a62' stroke-width='2'%3E%3Cpath d='m4 7 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 20px center;border:1px solid var(--line);border-radius:10px;padding:18px 54px 18px 22px;cursor:pointer}
+label{display:block;font:400 10px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin:0 0 6px}
+.f{margin-bottom:14px}.f:last-child{margin:0}
+select{width:100%;appearance:none;font:400 14px Inter,sans-serif;color:var(--ink);background:var(--field) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' fill='none' stroke='%236f6a62' stroke-width='2'%3E%3Cpath d='m3 5 4 4 4-4'/%3E%3C/svg%3E") no-repeat right 12px center;border:1px solid var(--line);border-radius:6px;padding:10px 34px 10px 12px;cursor:pointer}
 select:disabled{color:var(--mute);opacity:.65;cursor:not-allowed}
-select:focus-visible,input:focus-visible,.btn:focus-visible,.res button:focus-visible,.chips button:focus-visible,.lk:focus-visible{outline:3px solid var(--red);outline-offset:2px}
-.sub{font:400 16px 'IBM Plex Mono',monospace;color:var(--mute);letter-spacing:.04em}
+select:focus-visible,input:focus-visible,.btn:focus-visible,.res button:focus-visible,.chips button:focus-visible,.lk:focus-visible{outline:2px solid var(--red);outline-offset:2px}
+.sub{font:400 10px 'IBM Plex Mono',monospace;color:var(--mute);letter-spacing:.04em;white-space:nowrap}
 .sw{position:relative}
-input{width:100%;font:400 22px Inter,sans-serif;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:10px;padding:18px 20px 18px 58px}
-.sw svg{position:absolute;left:21px;top:22px;color:var(--mute)}
-.hint{color:var(--mute);margin:18px 0 0;font-size:18px;line-height:1.6}.hint b{color:var(--ink);font-weight:600}
-.res{list-style:none;margin:12px 0 0;padding:0;max-height:320px;overflow:auto}
-.res button{width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:12px 6px;font:500 18px Inter,sans-serif;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:12px}
-.res button:hover{background:var(--field)}.res small{color:var(--mute);font:400 13px 'IBM Plex Mono',monospace;text-align:right}
-.out{grid-column:1/-1;display:flex;gap:20px;align-items:center;color:var(--mute);font-size:19px;padding:30px 36px}
-.out.has{display:block;color:var(--ink)}
-.mt{font:600 clamp(28px,4vw,42px)/1.1 Fraunces,serif;margin:0 0 24px;overflow-wrap:anywhere}
-dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px 28px;margin:0 0 26px}
-dt{font:400 13px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-bottom:4px}dd{margin:0;font-size:19px;font-weight:500}
-.lk{display:inline-block;background:var(--btn);color:var(--btnink);text-decoration:none;padding:13px 22px;border-radius:8px;font-weight:600}
-.nolk{color:var(--mute)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:26px;padding-top:22px;border-top:1px solid var(--line)}
-.chips span{width:100%;color:var(--mute);font:400 13px 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase}
-.chips button{font:500 15px Inter;background:var(--chip);color:var(--ink);border:0;border-radius:6px;padding:8px 13px;cursor:pointer}
+input{width:100%;font:400 14px Inter,sans-serif;color:var(--ink);background:var(--field);border:1px solid var(--line);border-radius:6px;padding:10px 12px 10px 38px}
+.sw svg{position:absolute;left:12px;top:11px;color:var(--mute)}
+.hint{color:var(--mute);margin:12px 0 0;font-size:12px;line-height:1.55}.hint b{color:var(--ink);font-weight:600}
+.res{list-style:none;margin:8px 0 0;padding:0;max-height:260px;overflow:auto}
+.res button{width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:8px 4px;font:500 13px Inter,sans-serif;color:var(--ink);cursor:pointer;display:flex;justify-content:space-between;gap:10px}
+.res button:hover{background:var(--field)}.res small{color:var(--mute);font:400 10px 'IBM Plex Mono',monospace;text-align:right}
+.out{grid-column:1/-1;display:flex;gap:12px;align-items:center;color:var(--mute);font-size:13px;padding:18px 22px}
+.out.has{display:block;color:var(--ink);padding:22px}
+.mt{font:600 clamp(20px,3vw,26px)/1.15 Fraunces,serif;margin:0 0 16px;overflow-wrap:anywhere}
+dl{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px 20px;margin:0 0 18px}
+dt{font:400 10px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin-bottom:2px}dd{margin:0;font-size:14px;font-weight:500}
+.lk{display:inline-block;background:var(--btn);color:var(--btnink);text-decoration:none;padding:9px 16px;border-radius:6px;font-weight:600;font-size:13px}
+.nolk{color:var(--mute);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:18px;padding-top:16px;border-top:1px solid var(--line)}
+.chips span{width:100%;color:var(--mute);font:400 10px 'IBM Plex Mono',monospace;letter-spacing:.08em;text-transform:uppercase}
+.chips button{font:500 12px Inter;background:var(--chip);color:var(--ink);border:0;border-radius:5px;padding:5px 10px;cursor:pointer}
 .chips button[aria-current]{background:var(--btn);color:var(--btnink)}
-@media(max-width:900px){main{grid-template-columns:1fr;padding:24px 16px}.hero{padding:32px 20px 40px}.card{padding:24px 20px}.out{padding:22px 20px}.meta{font-size:12px;gap:10px 14px}.logo{width:40px;height:40px;font-size:19px}h2{font-size:21px}}
+@media(max-width:820px){main{grid-template-columns:1fr;padding:18px 14px 28px}.hero{padding:22px 16px 28px}.card{padding:18px 16px}.out,.out.has{padding:16px}.meta{font-size:10px;gap:8px 12px}}
 </style></head><body>
 <header class="hero">
 <div class="meta"><span class="logo" aria-hidden="true">B</span><b>Belmicro Tecnologia S/A</b><span>Product Engineering</span><span>HQ Imported Portfolio</span></div>
@@ -60,15 +60,15 @@ dt{font:400 13px 'IBM Plex Mono',monospace;letter-spacing:.1em;text-transform:up
 </header>
 <main>
 <section class="card" aria-labelledby="t1">
-<div class="head"><h2 id="t1"><span class="tag">1-4</span>Navegação guiada</h2><button class="btn" id="clr" type="button"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h12M7 5V3h4v2M5 5l1 10h6l1-10"/></svg>Limpar filtros</button></div>
+<div class="head"><h2 id="t1"><span class="tag">1-4</span>Navegação guiada</h2><button class="btn" id="clr" type="button"><svg width="13" height="13" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 5h12M7 5V3h4v2M5 5l1 10h6l1-10"/></svg>Limpar filtros</button></div>
 <div class="f"><label for="m">Fabricante</label><select id="m"></select></div>
 <div class="f"><label for="c">Categoria</label><select id="c"></select></div>
 <div class="f"><label for="fa">Família</label><select id="fa"></select></div>
 <div class="f"><label for="mo">Modelo</label><select id="mo"></select></div>
 </section>
 <section class="card" aria-labelledby="t2">
-<div class="head" style="margin-bottom:26px"><h2 id="t2"><span class="ico"><svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="6"/><path d="m13 13 4 4"/></svg></span>Busca rápida</h2><span class="sub">atalho por modelo</span></div>
-<div class="sw"><svg width="22" height="22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="7"/><path d="m15 15 5 5"/></svg><input id="q" type="search" placeholder="Modelo, fabricante ou família — ex: HQS60" autocomplete="off" aria-label="Buscar modelo, fabricante ou família"></div>
+<div class="head" style="margin-bottom:16px"><h2 id="t2"><span class="ico"><svg width="14" height="14" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="2"><circle cx="8" cy="8" r="6"/><path d="m13 13 4 4"/></svg></span>Busca rápida</h2><span class="sub">atalho por modelo</span></div>
+<div class="sw"><svg width="16" height="16" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2"><circle cx="10" cy="10" r="7"/><path d="m15 15 5 5"/></svg><input id="q" type="search" placeholder="Modelo, fabricante ou família" autocomplete="off" aria-label="Buscar modelo, fabricante ou família"></div>
 <ul class="res" id="res"></ul>
 <p class="hint" id="hint">Aceita texto parcial, em qualquer posição — maiúsculas ou minúsculas. Busca por <b>modelo</b>, <b>fabricante</b> ou <b>família</b>.</p>
 </section>
@@ -90,11 +90,11 @@ function refresh(level){
  if(level<=2)fill('mo',m?rows().sort((a,b)=>a[3].localeCompare(b[3],'pt',{numeric:true})).map(r=>[r[6],r[3]]):null);
  show()}
 function show(){const o=$('out'),i=S.mo.value;
- if(i===''){o.className='card out';o.innerHTML='<svg width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="22" height="18" rx="2"/><path d="M3 10h22"/></svg><span>Nenhum modelo selecionado — use a navegação guiada ou a busca rápida para localizar um Spare Parts.</span>';return}
+ if(i===''){o.className='card out';o.innerHTML='<svg width="20" height="20" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="22" height="18" rx="2"/><path d="M3 10h22"/></svg><span>Nenhum modelo selecionado — use a navegação guiada ou a busca rápida para localizar um Spare Parts.</span>';return}
  const r=D[i],sib=D.map((x,j)=>[x,j]).filter(([x])=>x[0]==r[0]&&x[2]==r[2]);
  o.className='card out has';
  o.innerHTML=`<h3 class="mt">${esc(r[3])}</h3><dl><div><dt>Fabricante</dt><dd>${esc(r[0])}</dd></div><div><dt>Categoria</dt><dd>${esc(r[1])}</dd></div><div><dt>Família</dt><dd>${esc(r[2])}</dd></div><div><dt>Revisado por / data</dt><dd>${esc(REV)}</dd></div></dl>`+
- (r[4]&&/^https?:/.test(r[4])?`<a class="lk" href="${esc(r[4])}" target="_blank" rel="noopener">Acessar Spare Parts</a><div class="nolk" style="margin-top:10px;font-size:15px">${esc(r[5])}</div>`:'<span class="nolk">Link de acesso ainda não cadastrado para este modelo.</span>')+
+ (r[4]&&/^https?:/.test(r[4])?`<a class="lk" href="${esc(r[4])}" target="_blank" rel="noopener">Acessar Spare Parts</a><div class="nolk" style="margin-top:8px;font-size:12px">${esc(r[5])}</div>`:'<span class="nolk">Link de acesso ainda não cadastrado para este modelo.</span>')+
  `<div class="chips"><span>Outros modelos da família ${esc(r[2])} (${esc(r[0])})</span>${sib.map(([x,j])=>`<button type="button" data-i="${j}"${j==i?' aria-current="true"':''}>${esc(x[3])}</button>`).join('')}</div>`}
 function pick(i){const r=D[i];S.m.value=r[0];refresh(0);S.c.value=r[1];refresh(1);S.fa.value=r[2];refresh(2);S.mo.value=i;show()}
 fill('m',uniq(D,0));S.m.disabled=false;refresh(0);
@@ -104,7 +104,7 @@ $('out').onclick=e=>{const b=e.target.closest('button[data-i]');if(b)pick(+b.dat
 $('q').oninput=e=>{const t=e.target.value.trim().toLowerCase(),u=$('res');$('hint').hidden=!!t;
  if(!t){u.innerHTML='';return}
  const h=D.map((r,i)=>[r,i]).filter(([r])=>{const h=(r[3]+' '+r[0]+' '+r[2]).toLowerCase();return t.split(/\s+/).every(w=>h.includes(w))});
- u.innerHTML=h.length?h.slice(0,30).map(([r,i])=>`<li><button type="button" data-i="${i}">${esc(r[3])}<small>${esc(r[0])} · ${esc(r[2])}</small></button></li>`).join('')+(h.length>30?`<li class="hint" style="font-size:14px;margin:8px 6px">+${h.length-30} resultados — refine a busca.</li>`:''):'<li class="hint" style="margin:8px 6px">Nenhum resultado encontrado.</li>'};
+ u.innerHTML=h.length?h.slice(0,30).map(([r,i])=>`<li><button type="button" data-i="${i}">${esc(r[3])}<small>${esc(r[0])} · ${esc(r[2])}</small></button></li>`).join('')+(h.length>30?`<li class="hint" style="font-size:11px;margin:6px 4px">+${h.length-30} resultados — refine a busca.</li>`:''):'<li class="hint" style="margin:8px 6px">Nenhum resultado encontrado.</li>'};
 $('res').onclick=e=>{const b=e.target.closest('button[data-i]');if(b){pick(+b.dataset.i);$('out').scrollIntoView({behavior:'smooth',block:'nearest'})}};
 </script></body></html>
 
